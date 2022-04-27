@@ -1,0 +1,25 @@
+.itemsGrid {
+	display: block;
+	border-radius: 1rem;
+	padding: 1rem 0 0.5rem 0;
+	background-image: url('/public/img/bg-card.png');
+}
+
+.itemsGrid:hover {
+	transform: scale(1.05);
+	transition: 0.7s;
+	filter: grayscale(100%);
+}
+
+.itemsGrid img {
+	display: block;
+	margin: 0px auto;
+}
+
+.itemsGrid h2 {
+	text-align: center;
+	color: white;
+}
+.cardLink {
+	text-decoration: none;
+}
